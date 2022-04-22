@@ -15,7 +15,7 @@ public class Test {
         System.out.println("\n2-массив: " + secondArray);
         firstArray.addAll(secondArray);
         System.out.println("\nмассив после метода addAll(): " + firstArray);
-        firstArray.remove(5);
+        firstArray.remove(24);
         System.out.println("\nмассив после метода remove: " + firstArray);
     }
 }

@@ -39,7 +39,6 @@ class CustomArrayList {
     }
 
     public void remove(int index) {
-        elements[index] = null;
         String[] newArray = new String[elements.length - 1];
 
         for (int i = 0, j = index; i < newArray.length; i++) {
